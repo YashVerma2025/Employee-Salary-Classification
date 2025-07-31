@@ -1,5 +1,3 @@
 pandas
-streamlit
+sklearn
 pickle
-numpy
-PIL
