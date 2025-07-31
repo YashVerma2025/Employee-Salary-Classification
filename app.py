@@ -10,7 +10,7 @@ pipe = pickle.load(open('pipe.pkl', 'rb'))
 # Page configuration 
 st.set_page_config(page_title = 'Employee Salary Classification', page_icon = '🏦', layout = 'centered' )
 st.title('🏦 Employee Salary Classification')
-image = Image.open(r"C:\Users\eryas\Desktop\salary-image.webp") 
+image = Image.open(r"salary-image.webp") 
 resized_image = image.resize((1000, 250))
 st.image(resized_image)
 st.markdown('Predict whether an employee earns >50k or <=50k based on input features')
